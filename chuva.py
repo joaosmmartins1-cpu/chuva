@@ -6,7 +6,7 @@ print("ola mundo")
 playsound("leu-chuva-1-119168.mp3",block=False)
 def print_terminal(texto, usuario="zangets", delay=0.07):
 
-    prompt = f"[black]{usuario}[/]: "
+    prompt = f"[purple4]{usuario}[/]: "
     print(prompt, end="", flush=True)
     for letra in texto:
         sys.stdout.write(letra)
