@@ -2,7 +2,6 @@ import sys
 import time
 from rich import print
 from playsound3 import playsound
-print("ola mundo")
 playsound("leu-chuva-1-119168.mp3",block=False)
 def print_terminal(texto, usuario="zangets", delay=0.07):
 
